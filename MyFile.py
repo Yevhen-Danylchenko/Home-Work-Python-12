@@ -7,6 +7,7 @@ class Robot(ABC):
         self.model = model
         self.power_level = power_level
 
+    @abstractmethod
     def perform_task(self):
         pass
 
